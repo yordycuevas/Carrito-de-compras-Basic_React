@@ -1,4 +1,6 @@
 import { useState } from 'react';
+import React from 'react';
+import './Header.css'
 
 export const Header = ({
 	allProducts,
@@ -28,7 +30,11 @@ export const Header = ({
 
 	return (
 		<header>
-			<h1>Tienda</h1>
+			<div className='ceo'>
+
+			<h1 className='title'>E commerce</h1>
+			<h2 className='subtitle'>Encuentra los mejores productos!</h2>
+			</div>
 
 			<div className='container-icon'>
 				<div

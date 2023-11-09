@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Header } from './components/Header';
 import { ProductList } from './components/ProductList';
+import Footer from './components/Footer';
 
 function App() {
 	const [allProducts, setAllProducts] = useState([]);
@@ -25,6 +26,7 @@ function App() {
 				countProducts={countProducts}
 				setCountProducts={setCountProducts}
 			/>
+			<Footer />
 		</>
 	);
 }

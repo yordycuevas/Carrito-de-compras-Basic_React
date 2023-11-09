@@ -1,0 +1,11 @@
+.footer{
+    margin-top: 1rem;
+}
+
+.piepagina{
+    font-size: 1.5rem;
+    text-align: center;
+    color: aliceblue;
+    background-color: #000;
+    padding: 1rem;
+}
